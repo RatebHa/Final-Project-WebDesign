@@ -1,0 +1,97 @@
+body {
+    
+    
+            padding: 0;
+            margin: 0;
+            font-family: 'Visby CF';
+            
+        }
+.navbar {
+    margin: -55px 0;
+    margin-bottom: -150px;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    
+    
+}
+.logo {
+        
+        width: 250px;
+        cursor: pointer;
+    }
+a:hover{
+    transform: scale(1.01,1.01);
+   
+    
+}
+
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 500px;
+            margin: 15vh auto;
+            padding: 15px;
+            border-radius: 15px;
+            border: none;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            /* background-color: gray; */
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 90%;
+        }
+        
+        input {
+            width: 100%;
+            margin: 5px 0;
+            height: 35px;
+            font-size: 17px;
+            text-align: center;
+            outline: none;
+            border-radius: 15px;
+            border: none;
+            background: rgba(0,0,0,0.1);
+            font-family: 'Visby CF';
+        }
+        
+        textarea {
+            width: 100%;
+            margin: 5px 0;
+            font-size: 17px;
+            text-align: center;
+            outline: none;
+            border-radius: 15px;
+            border: none;
+            background: rgba(0,0,0,0.1);
+            font-family: 'Visby CF';
+            
+        }
+        input[type=submit]{
+            margin: 10px auto;
+            width: 120px;
+            background: darkred;
+            color: white;
+            cursor: pointer;
+            transition:0.3s;
+            
+        }
+        input[type=submit]:hover{
+        background: white;
+            color:darkred;
+            transform: scale(1.03,1.03);
+            border: 2px solid darkred;
+            
+            
+        }
+        @media screen and (max-width:600px) {
+            .container{
+                width: 90%;
+            }
+        }
